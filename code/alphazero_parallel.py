@@ -439,7 +439,7 @@ if __name__ == "__main__":
         n_search=240, 
         temperature=1.0, 
         C=1.0,
-        checkpoint_path="checkpoint/mlp_7x7_3layers_exfeat_1"
+        checkpoint_path="checkpoint/my_net"
     )
     model_training_config = ModelTrainingConfig(
         epochs=10,
